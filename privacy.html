@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<style>
+:root {
+  --bg: #fbfaf7;
+  --text: #1d1d1b;
+  --muted: #5d5b55;
+  --accent: #b3261e;
+  --line: #e4e1d9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161614;
+    --text: #ecebe6;
+    --muted: #a8a59c;
+    --accent: #ff7a70;
+    --line: #2e2d29;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+.lede { color: var(--muted); margin-top: 0; }
+a { color: var(--accent); }
+ul { padding-left: 1.2rem; }
+li { margin: .35rem 0; }
+.badge {
+  margin-top: 2.5rem; padding: .6rem .9rem; border: 1px solid var(--line);
+  border-radius: 8px; display: inline-block; color: var(--muted);
+}
+nav { margin-top: 2rem; display: flex; gap: 1.5rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+.fill { background: #fff3a8; color: #1d1d1b; padding: 0 .25rem; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">FeedFinder Studio</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="lede">Last updated: 24 September 2026</p>
+
+  <h2>YouTube API Services</h2>
+  <p>FeedFinder Studio uses YouTube API Services. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Whose data it touches</h2>
+  <p>Only the data of the person who runs it, about the YouTube channels they own and have signed in with. FeedFinder Studio has no other users. It collects nothing about viewers or anyone else.</p>
+
+  <h2>What it accesses, and why</h2>
+  <ul>
+    <li><strong>The signed-in channel's identity</strong> (channel ID), to confirm which channel it is posting to.</li>
+    <li><strong>Uploading, scheduling and deleting the channel's own videos</strong>, to post the owner's finished videos and to withdraw one the owner vetoes.</li>
+    <li><strong>The channel's own videos' statistics and analytics</strong> (views, engaged views, watch percentage, likes, comments count), to learn which videos people enjoy.</li>
+    <li><strong>Comments on the channel's own videos</strong>, to post one credit comment per video and to notice a creator asking for their clip to be removed.</li>
+  </ul>
+  <p>It never searches YouTube, never reads other channels or their videos, and never downloads anything from YouTube.</p>
+
+  <h2>Where the data is kept</h2>
+  <p>On the owner's own computer, in a local database, and nowhere else. It is not sent to any server, not shared with or sold to anyone, and not used for advertising. The sign-in token is stored in a local file that only that computer can read.</p>
+
+  <h2>How long it is kept</h2>
+  <p>Statistics about the channel's own videos are refreshed as they are read and kept only to compare videos with each other. The owner can delete any or all of it at any time by deleting the local database. No data obtained from YouTube about anyone else is stored.</p>
+
+  <h2>Revoking access</h2>
+  <p>Access can be withdrawn at any time on the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. After that FeedFinder Studio can no longer read or post anything, and its stored token stops working.</p>
+
+  <h2>Cookies and tracking</h2>
+  <p>FeedFinder Studio is a desktop program. It sets no cookies and does not track anyone. This website sets none either.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <span class="fill">[your contact email]</span></p>
+</main>
+</body>
+</html>
